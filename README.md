@@ -11,15 +11,16 @@ The wxIpAddressCtrl widget is derived from wxTextCtrl and testet on</br>
     • Copy the files “wxIpAddressCtrl.h” and “wxIpAddressCtrl.cpp” into your project directory.</br>
     • Include “wxIpAddressCtrl.h” into the header file of your dialog or frame window.</br>
     • Make a declaration for the pointer to the control class in the header file of your dialog or frame window,</br>
-      i.e: wxIpAddressCtrl* IpAddressInput;</br>
+      &nbsp;&nbsp;&nbsp;i.e: wxIpAddressCtrl* IpAddressInput;</br>
     • Create the control with an initialization string:</br>
-      IpAddressInput = new wxIpAddressCtrl(this, _("10.12.0.1"), wxPoint(120,32), wxSize(128,24));</br>
+      &nbsp;&nbsp;&nbsp;IpAddressInput = new wxIpAddressCtrl(this, _("10.12.0.1"), wxPoint(120,32), wxSize(128,24));</br>
 
 The “Show”-Button demonstrates how to use some native functions from parent class.
 
 <b>What happens in wxIpAddrCtrl.h</b></br>
     • Declaration of the class “wxIpAddressCtrl” derived from the wxWidgets native class “wxTextCtrl”.</br>
-    • Declaration of a wxKeyEvent function:</br>void keyReleased(wxKeyEvent& event);</br>
+    • Declaration of a wxKeyEvent function:</br>
+      &nbsp;&nbsp;&nbsp;void keyReleased(wxKeyEvent& event);</br>
     • Declaration of some functions and variables</br>
 
 <b>What happens in wxIpAddrCtrl.cpp</b></br>
